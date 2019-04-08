@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ptmod",
+  "name": "PT Mod",
+  "description": "巨大的根 mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["pt"],
+  "credits": "pt",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
