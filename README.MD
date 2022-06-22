@@ -17,12 +17,12 @@ Standalone source installation
 See the Forge Documentation online for more detailed instructions:
 http://mcforge.readthedocs.io/en/latest/gettingstarted/
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+- Step 1: Open your command-line and browse to the folder where you extracted the zip file.
 
-Step 2: Once you have a command window up in the folder that the downloaded material was placed, type:
+- Step 2: Once you have a command window up in the folder that the downloaded material was placed, type:
 
-Windows: "gradlew setupDecompWorkspace"
-Linux/Mac OS: "./gradlew setupDecompWorkspace"
+Windows: `gradlew setupDecompWorkspace`
+Linux/Mac OS: `./gradlew setupDecompWorkspace`
 
 Step 3: After all that finished, you're left with a choice.
 For eclipse, run "gradlew eclipse" (./gradlew eclipse if you are on Mac/Linux)
