@@ -17,14 +17,17 @@ Standalone source installation
 See the Forge Documentation online for more detailed instructions:
 http://mcforge.readthedocs.io/en/latest/gettingstarted/
 
-- Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+### Step 1: 
+Open your command-line and browse to the folder where you extracted the zip file.
 
-- Step 2: Once you have a command window up in the folder that the downloaded material was placed, type:
+### Step 2: 
+Once you have a command window up in the folder that the downloaded material was placed, type:
 
-Windows: `gradlew setupDecompWorkspace`
-Linux/Mac OS: `./gradlew setupDecompWorkspace`
+- Windows: `gradlew setupDecompWorkspace`
+- Linux/Mac OS: `./gradlew setupDecompWorkspace`
 
-Step 3: After all that finished, you're left with a choice.
+### Step 3: 
+After all that finished, you're left with a choice.
 For eclipse, run "gradlew eclipse" (./gradlew eclipse if you are on Mac/Linux)
 
 If you prefer to use IntelliJ, steps are a little different.
@@ -34,7 +37,8 @@ If you prefer to use IntelliJ, steps are a little different.
 
 `gradlew genIntellijRuns` (./gradlew genIntellijRuns if you are on Mac/Linux)
 
-Step 4: The final step is to open Eclipse and switch your workspace to /eclipse/ (if you use IDEA, it should automatically start on your project)
+### Step 4: 
+The final step is to open Eclipse and switch your workspace to /eclipse/ (if you use IDEA, it should automatically start on your project)
 
 If at any point you are missing libraries in your IDE, or you've run into problems you can run "gradlew --refresh-dependencies" to refresh the local cache. "gradlew clean" to reset everything {this does not affect your code} and then start the processs again.
 
